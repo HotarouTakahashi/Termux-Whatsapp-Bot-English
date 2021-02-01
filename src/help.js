@@ -1,5 +1,5 @@
 const help = (prefix) => {
-	return `👋️ Konnichiwa *${pushname}*! I'm Houtarou
+	return `👋️ Konnichiwa! I'm Houtarou
 	I'm bot. The usable commands are listed below
 	
 	🌟️ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧* 🌟️
