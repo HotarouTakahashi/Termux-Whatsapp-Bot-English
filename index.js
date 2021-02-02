@@ -469,11 +469,13 @@ async function starts() {
 					break
                                 case 'linkgroup':
                                         if (!isGroup) return reply(mess.only.group)
-                                        // if (!isGroupAdmins) return reply(mess.only.admin)
-                                        // if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+                                        if (!isGroupAdmins) return reply(mess.only.admin)
+                                        if (!isBotGroupAdmins) return reply(mess.only.Badmin)
                                         linkgc = await client.groupInviteCode(from)
                                         reply('https://chat.whatsapp.com/'+linkgc)
                                         break
+				case 'info':
+					reply('This Bot is codded in pure Javascript/Nodejs Using Baileys\nGit Repo: https://github.com/HotarouTakahashi/Termux-Whatsapp-Bot-English\nReach me:https://wa.me/919167739828\n*Pls don\'t message unncessarily*')
                                 case 'leave':
                                         if (!isGroup) return reply(mess.only.group)
                                         if (isGroupAdmins || isOwner) {
