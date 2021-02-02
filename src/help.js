@@ -11,6 +11,10 @@ const help = (prefix) => {
 🔰️ *Command:* *${prefix}toimg*
 💠️ *Description:* convert sticker to image
 ♦️ *Usage:* reply sticker\n
+🔰️> *About Bot* <🔰️
+🔰️ *Command:* *${prefix}info*
+💠️ *Description:* Know about the bot...
+♦️ *Usage:* Just write as it is...\n
 🔰️> *Meme Commands* <🔰️
 🔰️ *Command:* *${prefix}meme*
 💠️ *Description:* random meme images [english]
