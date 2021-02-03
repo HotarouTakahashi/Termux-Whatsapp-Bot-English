@@ -126,7 +126,8 @@ async function starts() {
 					ownerG: '❌ This command can only be used by the group owner, Baka! ❌',
 					ownerB: '❌ This command can only be used by the bot owner, Baka! ❌',
 					admin: '❌ This command can only be used by group admins, Baka! ❌',
-					Badmin: '❌ You have to make me admin, Baka! ❌'
+					Badmin: '❌ You have to make me admin, Baka! ❌',
+					aboutbot: 'This Bot is codded in pure Javascript/Nodejs Using Baileys\nGit Repo: https://github.com/HotarouTakahashi/Termux-Whatsapp-Bot-English\nReach me:https://wa.me/919167739828\n*Pls don\'t message unncessarily*'
 				}
 			}
 
@@ -475,7 +476,7 @@ async function starts() {
                                         reply('https://chat.whatsapp.com/'+linkgc)
                                         break
 				case 'info':
-					reply('This Bot is codded in pure Javascript/Nodejs Using Baileys\nGit Repo: https://github.com/HotarouTakahashi/Termux-Whatsapp-Bot-English\nReach me:https://wa.me/919167739828\n*Pls don\'t message unncessarily*')
+				reply(mess.only.aboutbot)
                                 case 'leave':
                                         if (!isGroup) return reply(mess.only.group)
                                         if (isGroupAdmins || isOwner) {
